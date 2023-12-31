@@ -86,6 +86,12 @@ legend {
   display: block;
 }
 
+.container {
+  width: 1200px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
 body {
   font-family: "Montserrat", sans-serif;
 }
@@ -107,4 +113,20 @@ body {
   right: 0;
   left: 0;
   background-color: rgba(0, 0, 0, 0.35);
+}
+
+.header__content {
+  padding-top: 60px;
+  position: absolute;
+  z-index: 9;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  color: #fff;
+}
+
+.header__buttons {
+  display: flex;
+  justify-content: space-between;
 }/*# sourceMappingURL=main.css.map */
