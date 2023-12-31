@@ -115,7 +115,7 @@ body {
   background-color: rgba(0, 0, 0, 0.35);
 }
 
-.header__content {
+.header__wrapper {
   padding-top: 60px;
   position: absolute;
   z-index: 9;
@@ -129,4 +129,16 @@ body {
 .header__buttons {
   display: flex;
   justify-content: space-between;
+}
+
+.button-round {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+.button-round:hover {
+  background-color: #00c470;
 }/*# sourceMappingURL=main.css.map */
