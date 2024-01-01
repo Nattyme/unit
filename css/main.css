@@ -147,8 +147,10 @@ body {
 }
 
 .header__desc {
+  margin-bottom: 70px;
   max-width: 730px;
-  margin: 0 auto;
+  margin-left: auto;
+  margin-right: auto;
   font-size: 20px;
   font-weight: 700;
   line-height: normal;
@@ -164,4 +166,11 @@ body {
 
 .button-round:hover {
   background-color: #00c470;
+}
+
+.input {
+  width: 240px;
+  height: 60px;
+  background-color: rgb(0, 0, 1);
+  border-radius: 30px;
 }/*# sourceMappingURL=main.css.map */
