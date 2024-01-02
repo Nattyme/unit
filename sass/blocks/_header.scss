@@ -65,3 +65,10 @@
     justify-content: center;
     column-gap: 20px;
 }
+
+.header__scroll {
+    position: absolute;
+    left: 50%;
+    bottom: 100px;
+    transform: translateX(-50%);
+}

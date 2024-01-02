@@ -163,6 +163,13 @@ body {
        column-gap: 20px;
 }
 
+.header__scroll {
+  position: absolute;
+  left: 50%;
+  bottom: 100px;
+  transform: translateX(-50%);
+}
+
 .button-round {
   width: 60px;
   height: 60px;
@@ -209,6 +216,7 @@ body {
   letter-spacing: 4px;
   text-transform: uppercase;
   color: #fff;
+  transition: background-color 0.2s ease-in;
 }
 .button:hover {
   background-color: #00ad62;
