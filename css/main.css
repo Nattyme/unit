@@ -169,8 +169,24 @@ body {
 }
 
 .input {
+  padding: 0 30px;
   width: 240px;
   height: 60px;
-  background-color: rgb(0, 0, 1);
+  background-color: rgba(0, 0, 0, 0.75);
   border-radius: 30px;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 60px;
+  color: #fff;
+}
+.input:focus {
+  background-color: rgb(0, 0, 0);
+}
+
+.input::-moz-placeholder {
+  color: #fff;
+}
+
+.input::placeholder {
+  color: #fff;
 }/*# sourceMappingURL=main.css.map */
