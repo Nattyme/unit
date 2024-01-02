@@ -286,4 +286,35 @@ body {
   font-weight: 500;
   line-height: 2.14; /* 214.286% */
   color: #808080;
+}
+
+.section-cta {
+  position: relative;
+  padding: 83px 0 84px;
+  background-image: url("./../img/cta/cta-bg.jpg");
+  background-size: cover;
+  background-position: center;
+}
+.section-cta::before {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  content: "";
+  background-color: rgba(0, 0, 0, 0.35);
+}
+
+.section-cta__content {
+  z-index: 9;
+  position: relative;
+  text-align: center;
+}
+
+.section-cta__title {
+  margin-bottom: 40px;
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 1; /* 22px */
+  color: #fff;
 }/*# sourceMappingURL=main.css.map */
