@@ -1,8 +1,23 @@
 .card {
+    width: 270px;
+    text-align: center;
 }
+
 .card__img {
+    margin-bottom: 40px;
 }
+
 .card__title {
+    margin-bottom: 20px;
+    
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1; /* 16px */
 }
-.card__p {
+
+.card__text {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 2.14; /* 214.286% */
+    color: #808080;
 }
