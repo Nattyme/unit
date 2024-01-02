@@ -97,6 +97,10 @@ body {
   color: #2E2E2E;
 }
 
+.none {
+  display: none;
+}
+
 .header {
   position: relative;
   height: 870px;
@@ -237,6 +241,12 @@ body {
 
 .section-functional__title {
   margin-bottom: 40px;
+}
+
+.section-functional__row {
+  display: flex;
+  -moz-column-gap: 30px;
+       column-gap: 30px;
 }
 
 .title {
