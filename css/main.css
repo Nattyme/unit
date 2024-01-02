@@ -259,7 +259,6 @@ body {
 }
 
 .subtitle {
-  text-align: center;
   font-size: 48px;
   font-weight: 700;
   line-height: 1; /* 48px */
@@ -321,4 +320,41 @@ body {
 .section-cta__title span {
   font-weight: 700;
   text-transform: uppercase;
+}
+
+.section-tasks {
+  padding: 80px 0 40px;
+  border-bottom: 1px solid #e1e1e1;
+}
+
+.section-tasks__row {
+  padding-left: 100px;
+  padding-right: 114px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.section-tasks__content {
+  width: 570px;
+}
+
+.section-tasks__header {
+  margin-bottom: 30px;
+}
+
+.section-tasks__title {
+  margin-bottom: 30px;
+}
+
+.section-tasks__text {
+  width: 400px;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 2.14; /* 214.286% */
+  color: #808080;
+}
+
+.section-tasks__text p + * {
+  margin-top: 15px;
 }/*# sourceMappingURL=main.css.map */
