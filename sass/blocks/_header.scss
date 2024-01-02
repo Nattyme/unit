@@ -61,5 +61,7 @@
 }
 
 .header__form {
-
+    display: flex;
+    justify-content: center;
+    column-gap: 20px;
 }

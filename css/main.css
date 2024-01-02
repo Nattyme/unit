@@ -156,6 +156,13 @@ body {
   line-height: normal;
 }
 
+.header__form {
+  display: flex;
+  justify-content: center;
+  -moz-column-gap: 20px;
+       column-gap: 20px;
+}
+
 .button-round {
   width: 60px;
   height: 60px;
