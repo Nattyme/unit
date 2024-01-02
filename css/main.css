@@ -317,4 +317,8 @@ body {
   font-weight: 500;
   line-height: 1; /* 22px */
   color: #fff;
+}
+.section-cta__title span {
+  font-weight: 700;
+  text-transform: uppercase;
 }/*# sourceMappingURL=main.css.map */

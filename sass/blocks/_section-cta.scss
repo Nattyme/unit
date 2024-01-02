@@ -30,4 +30,9 @@
     font-weight: 500;
     line-height: 1; /* 22px */
     color: #fff;
+
+    & span {
+        font-weight: 700;
+        text-transform: uppercase;
+    }
 }
