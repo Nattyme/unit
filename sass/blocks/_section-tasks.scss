@@ -33,13 +33,8 @@
     font-weight: 500;
     line-height: 2.14; /* 214.286% */
     color: #808080;
-}
 
-.section-tasks__text p { 
-    & + * {
+    p + * {
         margin-top: 15px;
     }
-}
-
-.section-tasks__img {
 }

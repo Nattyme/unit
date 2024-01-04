@@ -1,22 +1,31 @@
 .section-focus {
+    padding: 80px 0 40px;
 }
-.container {
-}
+
 .section-focus__row {
+    display: flex;
+    justify-content: space-between;
 }
-.section-focus__img {
-}
+
 .section-focus__content {
+    width: 470px;
 }
+
 .section-focus__header {
+    margin-bottom: 30px;
 }
+
 .section-focus__title {
+    margin-bottom: 30px;
 }
-.title {
-}
+
 .section-focus__subtitle {
 }
-.subtitle {
-}
+
 .section-focus__text {
+    width: 400px;
+
+    p + * {
+        margin-top: 15px;
+    }
 }
