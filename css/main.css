@@ -368,6 +368,7 @@ body {
 }
 
 .section-focus__content {
+  padding-top: 28px;
   width: 470px;
 }
 
