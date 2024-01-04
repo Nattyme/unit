@@ -1,9 +1,7 @@
 .section-cta {
     position: relative;
     padding: 83px 0 84px;
-    background-image: url("./../img/cta/cta-bg.jpg");
-    background-size: cover;
-    background-position: center;
+    @include bgImage ("./../img/cta/cta-bg.jpg");
 
     &::before {
         @extend %overlay;
