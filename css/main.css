@@ -1,5 +1,15 @@
-/* Reset and base styles  */
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700;800&display=swap");
+.section-price::before, .section-cta::before, .header::before {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  content: "";
+  background-color: rgba(0, 0, 0, 0.35);
+}
+
+/* Reset and base styles  */
 * {
   padding: 0px;
   margin: 0px;
@@ -109,17 +119,6 @@ body {
   background-size: cover;
   background-position: center;
 }
-
-.header::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  right: 0;
-  left: 0;
-  background-color: rgba(0, 0, 0, 0.35);
-}
-
 .header__wrapper {
   padding-top: 60px;
   position: absolute;
@@ -294,16 +293,6 @@ body {
   background-size: cover;
   background-position: center;
 }
-.section-cta::before {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  content: "";
-  background-color: rgba(0, 0, 0, 0.35);
-}
-
 .section-cta__content {
   z-index: 9;
   position: relative;
@@ -385,4 +374,12 @@ body {
 }
 .section-focus__text p + * {
   margin-top: 15px;
+}
+
+.section-price {
+  position: relative;
+  padding: 90px 0 100px;
+  background-image: url("./../../img/prices/prices-bg.jpg");
+  background-size: cover;
+  background-position: center;
 }/*# sourceMappingURL=main.css.map */

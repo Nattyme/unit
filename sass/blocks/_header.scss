@@ -5,19 +5,11 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-}
 
-.header::before {
-    content: "";
-
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    right: 0;
-    left: 0;
-
-    background-color: rgba(0, 0, 0, 0.35);
-}
+    &::before {
+        @extend %overlay;
+     }
+ }
 
 .header__wrapper {
     padding-top: 60px;
