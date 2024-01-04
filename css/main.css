@@ -384,4 +384,20 @@ body {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+}
+.section-price__content {
+  position: relative;
+  z-index: 9;
+}
+.section-price__content .title, .section-price__content .subtitle {
+  color: #fff;
+}
+
+.section-price__header {
+  margin-bottom: 80px;
+  text-align: center;
+}
+
+.section-price__title {
+  margin-bottom: 40px;
 }/*# sourceMappingURL=main.css.map */
