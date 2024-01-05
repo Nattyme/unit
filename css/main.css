@@ -456,5 +456,13 @@ body {
 }
 
 .package__list {
-  padding: 0 15px;
+  margin-bottom: 58px;
+  padding: 40px 15px 0;
+}
+
+.package__list-item {
+  margin-bottom: 25px;
+}
+.package__list-item:last-child {
+  margin-bottom: 0;
 }/*# sourceMappingURL=main.css.map */
