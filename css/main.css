@@ -402,6 +402,12 @@ body {
   margin-bottom: 40px;
 }
 
+.section-price__row {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
 .package {
   padding: 40px 0;
   width: 300px;
@@ -410,6 +416,16 @@ body {
   border-radius: 8px;
   text-align: center;
   color: #fff;
+}
+
+.package--special {
+  background-color: rgba(48, 79, 254, 0.95);
+}
+.package--special .package__title {
+  color: #fff;
+}
+.package--special .package__period {
+  background-color: rgba(0, 0, 0, 0.1);
 }
 
 .package__header {
@@ -428,7 +444,7 @@ body {
   line-height: 1; /* 16px */
   letter-spacing: 4px;
   text-transform: uppercase;
-  color: #B2B2B2;
+  color: #b2b2b2;
 }
 
 .package__price {
@@ -465,6 +481,27 @@ body {
 }
 .package__list-item:last-child {
   margin-bottom: 0;
+}
+
+.button-outline {
+  padding: 0 40px;
+  height: 60px;
+  border-radius: 30px;
+  background-color: transparent;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  font-size: 14px;
+  font-weight: 800;
+  line-height: 14px;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  color: #fff;
+  transition: background-color 0.2s ease-in;
+}
+.button-outline:hover {
+  background-color: #00ad62;
+}
+.button-outline:focus {
+  background-color: #00a05a;
 }
 
 .button-outline {

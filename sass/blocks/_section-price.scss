@@ -33,5 +33,9 @@
 }
 .subtitle {
 }
+
 .section-price__row {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
 }
