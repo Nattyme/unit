@@ -15,10 +15,11 @@
     transition: background-color 0.2s ease-in;
 
     &:hover {
-        background-color: #00ad62;
+        background-color: rgba(255, 255, 255, 0.2);
+        border: 1px solid rgba(255, 255, 255, 0);
     }
 
     &:focus {
-        background-color: #00a05a;
+        background-color: rgb(0, 0, 0);
     }
 }

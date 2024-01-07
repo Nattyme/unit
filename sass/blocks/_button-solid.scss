@@ -14,10 +14,12 @@
     transition: background-color 0.2s ease-in;
 
     &:hover {
-        background-color: #00ad62;
+        background-color: #000;
+        color: #fff;
     }
 
     &:focus {
-        background-color: #00a05a;
+        background-color: #2f2f2f;
+        color: #fff;
     }
 }
