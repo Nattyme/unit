@@ -1,7 +1,8 @@
 .package {
+    display: flex;
+    flex-direction: column;
     padding: 40px 0;
     width: 300px;
-    height: 613px;
 
     background: rgba(0, 0, 0, 0.75);
     border-radius: 8px;
@@ -87,7 +88,5 @@
 }
 
 .package__button {
-}
-
-.button-outline {
+    margin-top: auto;
 }

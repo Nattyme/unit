@@ -27,15 +27,9 @@
     margin-bottom: 40px;
 }
 
-.title {
-}
-.section-price__subtitle {
-}
-.subtitle {
-}
-
 .section-price__row {
     display: flex;
     justify-content: center;
-    gap: 30px;
+    column-gap: 30px;
+    -webkit-box-pack: center;
 }
