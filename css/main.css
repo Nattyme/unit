@@ -579,5 +579,23 @@ body {
 }
 
 .slider-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   background-color: blue;
+}
+
+.slider-item__text {
+  margin-bottom: 30px;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 2; /* 36px */
+  color: #000;
+}
+
+.slider-item__author {
+  display: flex;
+  gap: 20px;
+  align-items: center;
 }/*# sourceMappingURL=main.css.map */
