@@ -52,6 +52,10 @@
 }
 
 .slider-item__avatar {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    overflow: hidden;
 }
 
 .slider-item__name {

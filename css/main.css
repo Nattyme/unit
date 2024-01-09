@@ -598,4 +598,11 @@ body {
   display: flex;
   gap: 20px;
   align-items: center;
+}
+
+.slider-item__avatar {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  overflow: hidden;
 }/*# sourceMappingURL=main.css.map */
