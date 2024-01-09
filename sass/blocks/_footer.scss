@@ -8,6 +8,7 @@
     margin-bottom: 50px;
      
     display: flex;
+    justify-content: center;
     align-items: center;
     gap: 40px;
 }
@@ -34,8 +35,35 @@
     }
 }
 
-.footer__socials {
+.footer__social {
+    display: flex;
+    gap: 30px;
+}
+
+.footer__social-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 48px;
+    height: 48px;
+    background-color: rgba(196, 196, 196, 0.1);
+    border-radius: 50%;
+
+    transition: background-color 0.2s ease-in;
+
+    &:hover {
+        background-color: #00c470;
+    }
 }
 
 .footer__copyright {
+    text-align: center;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1; /* 14px */
+    color: rgba(255, 255, 255, 0.30);
+
+    p + p {
+        margin-top: 15px;
+    }
 }
