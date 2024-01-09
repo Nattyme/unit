@@ -6,7 +6,7 @@
 
     font-size: 14px;
     font-weight: 800;
-    line-height: 14px;
+    line-height: 60px;
     letter-spacing: 4px;
     text-transform: uppercase;
     color: #fff;
@@ -20,4 +20,8 @@
     &:focus {
         background-color: #00a05a;
     }
+}
+
+.section-cta .button {
+    display: inline-block;
 }

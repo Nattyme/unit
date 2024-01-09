@@ -1,18 +1,44 @@
 .button-round {
-    // display: flex;
-    // justify-content: center;
-    // align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
     width: 60px;
     height: 60px;
     border-radius: 50%;
     background-color: #fff;
-    cursor: pointer;
 
     transition: background-color 0.2s ease-in;
 
     &:hover {
         background-color: #00c470;
+
+        .button-round__svg {
+            path {
+                transition: all 0.2s ease-in;
+            }
+
+            &--menu path {
+                fill: #fff;
+            }
+
+            &--search path {
+                stroke: #fff;
+            }
+        }
+    }
+}
+
+.button-round__svg {
+    fill: none;
+
+    &--menu path {
+        fill: #000;
     }
 
+    &--search path {
+        stroke: #000;
+    }
 }
+
 

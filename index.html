@@ -11,17 +11,29 @@
       <div class="header__wrapper">
         <div class="container header__buttons">
           <button class="button-round">
-            <img src="./img/header/menu.svg" alt="Nav button" />
+            <svg class="button-round__svg button-round__svg--menu" width="20" height="17" viewBox="0 0 20 17" xmlns="http://www.w3.org/2000/svg">
+                <g clip-path="url(#clip0_1_196)">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M1.5 0H18.5C18.8978 0 19.2794 0.158034 19.5607 0.439339C19.842 0.720643 20 1.10218 20 1.5C20 1.89782 19.842 2.27936 19.5607 2.56066C19.2794 2.84197 18.8978 3 18.5 3H1.5C1.10218 3 0.720636 2.84197 0.439331 2.56066C0.158026 2.27936 0 1.89782 0 1.5C0 1.10218 0.158026 0.720643 0.439331 0.439339C0.720636 0.158034 1.10218 0 1.5 0ZM1.5 7H18.5C18.8978 7 19.2794 7.15803 19.5607 7.43934C19.842 7.72064 20 8.10218 20 8.5C20 8.89782 19.842 9.27936 19.5607 9.56066C19.2794 9.84197 18.8978 10 18.5 10H1.5C1.10218 10 0.720636 9.84197 0.439331 9.56066C0.158026 9.27936 0 8.89782 0 8.5C0 8.10218 0.158026 7.72064 0.439331 7.43934C0.720636 7.15803 1.10218 7 1.5 7ZM1.5 14H18.5C18.8978 14 19.2794 14.158 19.5607 14.4393C19.842 14.7206 20 15.1022 20 15.5C20 15.8978 19.842 16.2794 19.5607 16.5607C19.2794 16.842 18.8978 17 18.5 17H1.5C1.10218 17 0.720636 16.842 0.439331 16.5607C0.158026 16.2794 0 15.8978 0 15.5C0 15.1022 0.158026 14.7206 0.439331 14.4393C0.720636 14.158 1.10218 14 1.5 14Z"/>
+                </g>
+                <defs>
+                <clipPath id="clip0_1_196">
+                <rect width="20" height="17"/>
+                </clipPath>
+                </defs>
+            </svg>
           </button>
           <button class="button-round">
-            <img src="./img/header/search.svg" alt="Navigation button" />
+            <svg class="button-round__svg button-round__svg--search" width="20" height="20" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M7.70001 13.2C10.7376 13.2 13.2 10.7375 13.2 7.69995C13.2 4.66239 10.7376 2.19995 7.70001 2.19995C4.66245 2.19995 2.20001 4.66239 2.20001 7.69995C2.20001 10.7375 4.66245 13.2 7.70001 13.2Z" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M16.8 18.4L11.2 12" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg> 
           </button>
         </div>
         <div class="container header__content">
-          <div class="header__title">ЮНИТ</div>
+          <h1 class="header__title">ЮНИТ</h1>
           <div class="header__desc">
-            Управляй задачами и проектами из любой точки вместе с ЮНИТ. Дома. На
-            работе. В дороге. Онлайн. Оффлайн.
+            <p>Управляй задачами и проектами из любой точки вместе с ЮНИТ. Дома. На
+                работе. В дороге. Онлайн. Оффлайн.</p>
           </div>
           <form class="header__form">
             <input type="text" class="input" placeholder="Ваше имя" />
@@ -39,16 +51,12 @@
 
     <section class="section-functional" id="functional">
       <div class="container">
-        <div class="section-functional__header">
-          <div class="section-functional__title">
-            <h2 class="title">функционал</h2>
-          </div>
-          <div class="section-functional__subtitle">
-            <div class="subtitle">
-              <h3 class="subtitle">Получайте больше</h3>
-            </div>
-          </div>
-        </div>
+
+        <header class="section-functional__header">
+            <h2 class="section-functional__title title">функционал</h2>
+            <h3 class="subtitle">Получайте больше</h3>
+        </header>
+
         <div class="section-functional__row">
           <!-- card -->
           <div class="card">
@@ -116,12 +124,10 @@
     <section class="section-cta">
       <div class="section-cta__content">
         <div class="container">
-          <div class="section-cta__title">
+          <h2 class="section-cta__title">
             Начните использовать <span>ЮНИТ</span> уже сегодня.
-          </div>
-          <div class="section-cta__button">
-            <button class="button">подключить</button>
-          </div>
+          </h2>
+        <a href="#price" class="button">подключить</a>
         </div>
       </div>
     </section>
@@ -130,16 +136,12 @@
       <div class="container">
         <div class="section-tasks__row">
           <div class="section-tasks__content">
-            <!-- header -->
-            <div class="section-tasks__header">
-              <div class="section-tasks__title">
-                <h2 class="title">гибкое управление</h2>
-              </div>
-              <div class="section-tasks__subtitle">
-                <h3 class="subtitle">Задачи и подзадачи</h3>
-              </div>
-            </div>
-            <!--// header -->
+           
+            <header class="section-tasks__header">
+            <h2 class="section-tasks__title title">гибкое управление</h2>
+            <h3 class="subtitle">Задачи и подзадачи</h3>
+            </header>
+            
             <div class="section-tasks__text">
               <p>
                 Тактика выстраивания отношений с коммерчекими агентами, вопреки
@@ -158,21 +160,18 @@
 
     <section class="section-focus">
       <div class="container">
+
         <div class="section-focus__row">
           <div class="section-focus__img">
             <img src="./img/devices/ipad.jpg" alt="ipad" />
           </div>
           <div class="section-focus__content">
-            <!-- header -->
-            <div class="section-focus__header">
-              <div class="section-focus__title">
-                <h2 class="title">всегда в фокусе</h2>
-              </div>
-              <div class="section-focus__subtitle">
-                <h3 class="subtitle">Множественные приоритеты</h3>
-              </div>
-            </div>
-            <!--// header -->
+            
+            <header class="section-focus__header">
+            <h2 class="section-focus__titletitle">всегда в фокусе</h2>
+            <h3 class="subtitle">Множественные приоритеты</h3>
+            </header>
+            
             <div class="section-focus__text">
               <p>
                 Потребление существенно продуцирует рыночный традиционный канал.
@@ -186,20 +185,15 @@
       </div>
     </section>
 
-    <section class="section-price">
+    <section class="section-price" id="price">
         <div class="section-price__content">
           <div class="container">
-            <!-- header -->
+            
             <header class="section-price__header">
-              <div class="section-price__title">
-                <h2 class="title">цены</h2>
-              </div>
-              <div class="section-price__subtitle">
+                <h2 class="section-price__title title">цены</h2>
                 <h3 class="subtitle">Выберите подходящий план</h3>
-              </div>
             </header>
-            <!--// header -->
-
+            
             <div class="section-price__row">
               <!-- package -->
               <div class="package">
@@ -228,12 +222,6 @@
                   <span class="package__period">$/мес</span>
                 </div>
                 <ul class="package__list">
-                  <li class="package__list-item">50 проектов</li>
-                  <li class="package__list-item">10 участников</li>
-                  <li class="package__list-item">∞ количество задач</li>
-                  <li class="package__list-item">25 GB медиа хранилище</li>
-                  <li class="package__list-item">Поддержка по Email</li>
-
                   <li class="package__list-item">50 проектов</li>
                   <li class="package__list-item">10 участников</li>
                   <li class="package__list-item">∞ количество задач</li>
@@ -271,14 +259,12 @@
 
     <section class="section-clients">
       <div class="container">
+
         <header class="section-clients__header">
-          <div class="section-clients__title">
-            <h2 class="title">наши клиенты</h2>
-          </div>
-          <div class="section-clients__subtitle">
-            <h3 class="subtitle">Что говорят пользователи</h3>
-          </div>
+        <h2 class="section-clients__title title">наши клиенты</h2>
+        <h3 class="subtitle">Что говорят пользователи</h3>
         </header>
+
         <div class="section-clients__slider">
         <!-- slider -->
         <div class="slider">
@@ -295,7 +281,6 @@
             </svg>                
           </button>
 
-       
             <!-- slider item -->
             <div class="slider-item">
               <div class="slider-item__text">
@@ -323,12 +308,13 @@
 
     <footer class="footer">
       <div class="container">
+
         <div class="footer__row">
-          <div class="footer__nav">
+          <nav class="footer__nav">
             <a href="#!" class="footer__nav-item">о нас</a>
             <a href="#!" class="footer__nav-item">блог</a>
             <a href="#!" class="footer__nav-item">контакты</a>
-          </div>
+          </nav>
           <div class="footer__social">
             <a class="footer__social-item" href="#!"
               ><img src="./img/socials/twitter.svg" alt="twitter"
@@ -344,9 +330,11 @@
             /></a>
           </div>
         </div>
+
         <div class="footer__copyright">
-          <p>Копирайт © 2024 ЮНИТ. Все права защищены.</p>
+          <p>Копирайт &#169; 2024 ЮНИТ. Все права защищены.</p>
         </div>
+
       </div>
     </footer>
   </body>

@@ -26,7 +26,7 @@
 .section-focus__text {
     width: 400px;
 
-    p + * {
-        margin-top: 15px;
+    p:not(:last-child) {
+        margin-bottom: 15px;
     }
 }
