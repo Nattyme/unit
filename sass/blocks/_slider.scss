@@ -15,7 +15,6 @@
 
     transition: background-color 0.2s ease-in;
 
-
     &--left {
         top: 53px;
         left: -46px;
@@ -26,6 +25,18 @@
         top: 53px;
         right: -46px;
         transform: translateX(100%);
+    }
+
+    path {
+        transition: background-color 0.2s ease-in;
+    }
+
+    &:hover {
+        background-color: #00c470;
+    }
+
+    &:hover path {
+        stroke: #fff;
     }
 }
 

@@ -8,11 +8,19 @@
     margin: 0 auto;
 }
 
+html {
+    height: 100%;  /* sticky footer */
+}
+
 body {
     font-family: 'Montserrat', sans-serif;
     color: $textColor;
+
+    height: 100%;  /* sticky footer */
+    display: flex; /* sticky footer */
+    flex-direction: column; /* sticky footer */
 }
 
-.none {
-    display: none;
+.footer {
+    margin-top: auto; /* sticky footer */
 }
