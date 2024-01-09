@@ -554,7 +554,6 @@ body {
 
 .slider {
   position: relative;
-  background-color: blueviolet;
 }
 
 .slider__arrow {
@@ -582,7 +581,6 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: blue;
 }
 
 .slider-item__text {
@@ -592,6 +590,9 @@ body {
   font-weight: 500;
   line-height: 2; /* 36px */
   color: #000;
+}
+.slider-item__text p {
+  margin-bottom: 15px;
 }
 
 .slider-item__author {
@@ -605,4 +606,20 @@ body {
   height: 80px;
   border-radius: 50%;
   overflow: hidden;
+}
+
+.slider-item__avatar-desc {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.slider-item__avatar-title {
+  display: block;
+  margin-bottom: 5px;
+  color: #00C470;
+}
+
+.slider-item__avatar-name {
+  display: block;
+  color: #808080;
 }/*# sourceMappingURL=main.css.map */
