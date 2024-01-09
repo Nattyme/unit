@@ -180,8 +180,8 @@ body {
   border-radius: 50%;
   background-color: #fff;
   cursor: pointer;
+  transition: background-color 0.2s ease-in;
 }
-
 .button-round:hover {
   background-color: #00c470;
 }
@@ -565,6 +565,7 @@ body {
   height: 54px;
   border-radius: 50%;
   background-color: #f5f5f5;
+  transition: background-color 0.2s ease-in;
 }
 .slider__arrow--left {
   top: 53px;
@@ -646,6 +647,7 @@ body {
   letter-spacing: 4px;
   text-transform: uppercase;
   color: #fff;
+  transition: color 0.2s ease-in;
 }
 .footer__nav-item:last-child {
   margin-right: 0;

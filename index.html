@@ -1,295 +1,347 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
+<html lang="ru">
+  <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Проект Unit - таск менеджер</title>
     <link rel="stylesheet" href="./css/main.css">
-</head>
-<body>
-    <header class="header none">
-        <div class="header__wrapper">
-            <div class="container header__buttons">
-                <button class="button-round">
-                    <img src="./img/icons/menu 1.svg" alt="Nav button">
-                </button>
-                <button class="button-round">
-                    <img src="./img/icons/search.svg" alt="Navigation button">
-                </button>
-            </div>
-            <div class="container header__content">
-                <div class="header__title">ЮНИТ</div>
-                <div class="header__desc">Управляй задачами и проектами из любой точки вместе с ЮНИТ. 
-                    Дома. На работе. В дороге. Онлайн. Оффлайн.</div>
-                <form class="header__form">
-                        <input type="text" class="input" placeholder="Ваше имя">
-                        <input type="email" class="input" placeholder="Email">
-                        <button type="submit" class="button">начать триал</button>
-                </form>
-            </div>
-            <div class="header__scroll">
-                <a href="#functional">
-                    <img src="./img/icons/mouse.svg" alt="Вниз">
-                </a>
-            </div>
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__wrapper">
+        <div class="container header__buttons">
+          <button class="button-round">
+            <img src="./img/icons/menu 1.svg" alt="Nav button" />
+          </button>
+          <button class="button-round">
+            <img src="./img/icons/search.svg" alt="Navigation button" />
+          </button>
         </div>
+        <div class="container header__content">
+          <div class="header__title">ЮНИТ</div>
+          <div class="header__desc">
+            Управляй задачами и проектами из любой точки вместе с ЮНИТ. Дома. На
+            работе. В дороге. Онлайн. Оффлайн.
+          </div>
+          <form class="header__form">
+            <input type="text" class="input" placeholder="Ваше имя" />
+            <input type="email" class="input" placeholder="Email" />
+            <button type="submit" class="button">начать триал</button>
+          </form>
+        </div>
+        <div class="header__scroll">
+          <a href="#functional">
+            <img src="./img/icons/mouse.svg" alt="Вниз" />
+          </a>
+        </div>
+      </div>
     </header>
 
-    <section class="section-functional none">
-        <div class="container">
-            <div class="section-functional__header">
-                <div class="section-functional__title">
-                    <h2 class="title">функционал</h2>
-                </div>
-                <div class="section-functional__subtitle">
-                    <div class="subtitle">
-                        <h3 class="subtitle">Получайте больше</h3>
-                    </div>
-                </div>
+    <section class="section-functional" id="functional">
+      <div class="container">
+        <div class="section-functional__header">
+          <div class="section-functional__title">
+            <h2 class="title">функционал</h2>
+          </div>
+          <div class="section-functional__subtitle">
+            <div class="subtitle">
+              <h3 class="subtitle">Получайте больше</h3>
             </div>
-            <div class="section-functional__row">
-                <!-- card -->
-                <div class="card">
-                    <img src="./img/functional/file-check.svg" alt="file check" class="card__img">
-                    <h4 class="card__title">Создан для управления</h4>
-                    <p class="card__text">Согласно ставшей уже классической работе Филипа Котлера, рекламная площадка отталкивает рейтинг.</p>
-                </div>
-                <!--// card -->
-
-                <!-- card -->
-                <div class="card">
-                    <img src="./img/functional/microphone.svg" alt="microphone" class="card__img">
-                    <h4 class="card__title">Голосовое управление</h4>
-                    <p class="card__text">Согласно ставшей уже классической работе Филипа Котлера, рекламная площадка отталкивает рейтинг.</p>
-                </div>
-                <!--// card -->
-
-                <!-- card -->
-                <div class="card">
-                    <img src="./img/functional/money-stack.svg" alt="money-stack" class="card__img">
-                    <h4 class="card__title">Контроль бюджета</h4>
-                    <p class="card__text">Согласно ставшей уже классической работе Филипа Котлера, рекламная площадка отталкивает рейтинг.</p>
-                </div>
-                <!--// card -->
-
-                <!-- card -->
-                <div class="card">
-                    <img src="./img/functional/chart-pie.svg" alt="chart-pie" class="card__img">
-                    <h4 class="card__title">Статистика и графики</h4>
-                    <p class="card__text">Согласно ставшей уже классической работе Филипа Котлера, рекламная площадка отталкивает рейтинг.</p>
-                </div>
-                <!--// card -->
-               
-            </div>
+          </div>
         </div>
-    </section>
+        <div class="section-functional__row">
+          <!-- card -->
+          <div class="card">
+            <img
+              src="./img/functional/file-check.svg"
+              alt="file check"
+              class="card__img"
+            />
+            <h4 class="card__title">Создан для управления</h4>
+            <p class="card__text">
+              Согласно ставшей уже классической работе Филипа Котлера, рекламная
+              площадка отталкивает рейтинг.
+            </p>
+          </div>
+          <!--// card -->
 
-    <section class="section-cta none">
-            <div class="section-cta__content">
-                <div class="container">
-                    <div class="section-cta__title"> Начните использовать <span>ЮНИТ</span> уже сегодня.</div>
-                    <div class="section-cta__button">
-                        <button class="button"> подключить</button>
-                    </div>
-                </div>
-            </div>
-            
-    </section>
-    
-    <section class="section-tasks none">
-        <div class="container">
-            <div class="section-tasks__row">
-                
-                <div class="section-tasks__content">
-                    <!-- header -->
-                    <div class="section-tasks__header">
-                        <div class="section-tasks__title">
-                            <h2 class="title">гибкое управление</h2>
-                        </div>
-                        <div class="section-tasks__subtitle">
-                            <h3 class="subtitle">Задачи и подзадачи</h3>
-                        </div>
-                    </div>
-                    <!--// header -->
-                    <div class="section-tasks__text">
-                        <p>Тактика выстраивания отношений с коммерчекими агентами, вопреки мнению П.Друкера, искажает продвигаемый отраслевой стандарт. Стратегический рыночный план традиционно масштабирует комплексный имидж. Спонсорство развивает формат события.</p>
-                    </div>
-                </div>
-                <div class="section-tasks__img">
-                    <img src="./img/devices/iphone.jpg" alt="iphone">
-                </div>
-            </div>
+          <!-- card -->
+          <div class="card">
+            <img
+              src="./img/functional/microphone.svg"
+              alt="microphone"
+              class="card__img"
+            />
+            <h4 class="card__title">Голосовое управление</h4>
+            <p class="card__text">
+              Согласно ставшей уже классической работе Филипа Котлера, рекламная
+              площадка отталкивает рейтинг.
+            </p>
+          </div>
+          <!--// card -->
+
+          <!-- card -->
+          <div class="card">
+            <img
+              src="./img/functional/money-stack.svg"
+              alt="money-stack"
+              class="card__img"
+            />
+            <h4 class="card__title">Контроль бюджета</h4>
+            <p class="card__text">
+              Согласно ставшей уже классической работе Филипа Котлера, рекламная
+              площадка отталкивает рейтинг.
+            </p>
+          </div>
+          <!--// card -->
+
+          <!-- card -->
+          <div class="card">
+            <img
+              src="./img/functional/chart-pie.svg"
+              alt="chart-pie"
+              class="card__img"
+            />
+            <h4 class="card__title">Статистика и графики</h4>
+            <p class="card__text">
+              Согласно ставшей уже классической работе Филипа Котлера, рекламная
+              площадка отталкивает рейтинг.
+            </p>
+          </div>
+          <!--// card -->
         </div>
+      </div>
     </section>
 
-    <section class="section-focus none">
+    <section class="section-cta">
+      <div class="section-cta__content">
         <div class="container">
-            <div class="section-focus__row none">
-                <div class="section-focus__img">
-                    <img src="./img/devices/ipad.jpg" alt="ipad">
-                </div>
-                <div class="section-focus__content">
-                    <!-- header -->
-                    <div class="section-focus__header">
-                        <div class="section-focus__title">
-                            <h2 class="title">всегда в фокусе</h2>
-                        </div>
-                        <div class="section-focus__subtitle">
-                            <h3 class="subtitle">Множественные приоритеты</h3>
-                        </div>
-                    </div>
-                    <!--// header -->
-                    <div class="section-focus__text">
-                        <p>Потребление существенно продуцирует рыночный традиционный канал. В соответствии с законом Ципфа, маркетинг основан на тщательном анализе данных. Наряду с этим, целевой трафик конкурентоспособен.</p>
-                        
-                    </div>
-                </div>
-            </div>
-
-            <div class="section-price none">
-                <div class="section-price__content">
-                    <div class="container">
-                        <!-- header -->
-                        <header class="section-price__header">
-                            <div class="section-price__title">
-                                <h2 class="title">цены</h2>
-                            </div>
-                            <div class="section-price__subtitle">
-                                <h3 class="subtitle">Выберите подходящий план</h3>
-                            </div>
-                        </header>
-                        <!--// header -->
-
-                        <div class="section-price__row">
-                            <!-- package -->
-                            <div class="package">
-                                <div class="package__header">
-                                    <h4 class="package__title">базовый</h4>
-                                    <span class="package__price">15</span>
-                                    <span class="package__period">$/мес</span>
-                                </div>
-                                <ul class="package__list">
-                                    <li class="package__list-item">10 проектов</li>
-                                    <li class="package__list-item">5 участников</li>
-                                    <li class="package__list-item">∞ количество задач</li>
-                                    <li class="package__list-item">5 GB медиа хранилище </li>
-                                    <li class="package__list-item">Поддержка по Email</li>
-                                </ul>
-                                <div class="package__button">
-                                    <button class="button-outline">Выбрать</button>
-                                </div>
-                            </div>
-                            <!--// package -->
-                            <!-- package -->
-                            <div class="package package--special">
-                                <div class="package__header">
-                                    <h4 class="package__title">стандарт</h4>
-                                    <span class="package__price">65</span>
-                                    <span class="package__period">$/мес</span>
-                                </div>
-                                <ul class="package__list">
-                                    <li class="package__list-item">50 проектов</li>
-                                    <li class="package__list-item">10 участников</li>
-                                    <li class="package__list-item">∞ количество задач</li>
-                                    <li class="package__list-item">25 GB медиа хранилище </li>
-                                    <li class="package__list-item">Поддержка по Email</li>
-
-                                    <li class="package__list-item">50 проектов</li>
-                                    <li class="package__list-item">10 участников</li>
-                                    <li class="package__list-item">∞ количество задач</li>
-                                    <li class="package__list-item">25 GB медиа хранилище </li>
-                                    <li class="package__list-item">Поддержка по Email</li>
-                                </ul>
-                                <div class="package__button">
-                                    <button class="button-solid">Выбрать</button>
-                                </div>
-                            </div>
-                            <!--// package -->
-                            <!-- package -->
-                            <div class="package">
-                                <div class="package__header">
-                                    <h4 class="package__title">премиум</h4>
-                                    <span class="package__price">125</span>
-                                    <span class="package__period">$/мес</span>
-                                </div>
-                                <ul class="package__list">
-                                    <li class="package__list-item">100 проектов</li>
-                                    <li class="package__list-item">30 участников</li>
-                                    <li class="package__list-item">∞ количество задач</li>
-                                    <li class="package__list-item">50 GB медиа хранилище </li>
-                                    <li class="package__list-item">Поддержка по Email</li>
-                                </ul>
-                                <div class="package__button">
-                                    <button class="button-outline">Выбрать</button>
-                                </div>
-                            </div>
-                            <!--// package -->
-                        </div>
-                    </div>
-                </div>
-            </div>
+          <div class="section-cta__title">
+            Начните использовать <span>ЮНИТ</span> уже сегодня.
+          </div>
+          <div class="section-cta__button">
+            <button class="button">подключить</button>
+          </div>
         </div>
+      </div>
     </section>
 
-    <section class="section-clients none">
-        <div class="container">
-            <header class="section-clients__header">
-                <div class="section-clients__title">
-                    <h2 class="title">наши клиенты</h2>
-                </div>
-                <div class="section-clients__subtitle">
-                    <h3 class="subtitle">Что говорят пользователи</h3>
-                </div>
+    <section class="section-tasks">
+      <div class="container">
+        <div class="section-tasks__row">
+          <div class="section-tasks__content">
+            <!-- header -->
+            <div class="section-tasks__header">
+              <div class="section-tasks__title">
+                <h2 class="title">гибкое управление</h2>
+              </div>
+              <div class="section-tasks__subtitle">
+                <h3 class="subtitle">Задачи и подзадачи</h3>
+              </div>
+            </div>
+            <!--// header -->
+            <div class="section-tasks__text">
+              <p>
+                Тактика выстраивания отношений с коммерчекими агентами, вопреки
+                мнению П.Друкера, искажает продвигаемый отраслевой стандарт.
+                Стратегический рыночный план традиционно масштабирует
+                комплексный имидж. Спонсорство развивает формат события.
+              </p>
+            </div>
+          </div>
+          <div class="section-tasks__img">
+            <img src="./img/devices/iphone.jpg" alt="iphone" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-focus">
+      <div class="container">
+        <div class="section-focus__row">
+          <div class="section-focus__img">
+            <img src="./img/devices/ipad.jpg" alt="ipad" />
+          </div>
+          <div class="section-focus__content">
+            <!-- header -->
+            <div class="section-focus__header">
+              <div class="section-focus__title">
+                <h2 class="title">всегда в фокусе</h2>
+              </div>
+              <div class="section-focus__subtitle">
+                <h3 class="subtitle">Множественные приоритеты</h3>
+              </div>
+            </div>
+            <!--// header -->
+            <div class="section-focus__text">
+              <p>
+                Потребление существенно продуцирует рыночный традиционный канал.
+                В соответствии с законом Ципфа, маркетинг основан на тщательном
+                анализе данных. Наряду с этим, целевой трафик
+                конкурентоспособен.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-price">
+        <div class="section-price__content">
+          <div class="container">
+            <!-- header -->
+            <header class="section-price__header">
+              <div class="section-price__title">
+                <h2 class="title">цены</h2>
+              </div>
+              <div class="section-price__subtitle">
+                <h3 class="subtitle">Выберите подходящий план</h3>
+              </div>
             </header>
-            <div class="slider">
-                <button class="slider__arrow slider__arrow--left">
-                    <img src="./img/slider/arrow-left.svg" alt="Left">
-                </button> 
-                <button class="slider__arrow slider__arrow--right">
-                    <img src="./img/slider/arrow-right.svg" alt="Right">
-                </button>
+            <!--// header -->
 
-                <div class="section-clients__slider">
-                <!-- slider item -->
-                <div class="slider-item">
-                    <div class="slider-item__text">
-                        <p> Это потрясающее приложение которое помогло мне завершить все мои дела, и сделать дипломный проект раньше срока. </p>
-                    </div>
-                    <div class="slider-item__author">
-                        <div class="slider-item__avatar">
-                            <img src="./img/users/01.jpg" alt="avatar">
-                        </div>
-                        <div class="slider-item__avatar-desc">
-                            <span class="slider-item__avatar-title">Фрилансер</span>
-                            <span class="slider-item__avatar-name"> Николай Остапов</span>
-                        </div>
-                    </div>
+            <div class="section-price__row">
+              <!-- package -->
+              <div class="package">
+                <div class="package__header">
+                  <h4 class="package__title">базовый</h4>
+                  <span class="package__price">15</span>
+                  <span class="package__period">$/мес</span>
                 </div>
-                <!--// slider item -->
+                <ul class="package__list">
+                  <li class="package__list-item">10 проектов</li>
+                  <li class="package__list-item">5 участников</li>
+                  <li class="package__list-item">∞ количество задач</li>
+                  <li class="package__list-item">5 GB медиа хранилище</li>
+                  <li class="package__list-item">Поддержка по Email</li>
+                </ul>
+                <div class="package__button">
+                  <button class="button-outline">Выбрать</button>
+                </div>
+              </div>
+              <!--// package -->
+              <!-- package -->
+              <div class="package package--special">
+                <div class="package__header">
+                  <h4 class="package__title">стандарт</h4>
+                  <span class="package__price">65</span>
+                  <span class="package__period">$/мес</span>
+                </div>
+                <ul class="package__list">
+                  <li class="package__list-item">50 проектов</li>
+                  <li class="package__list-item">10 участников</li>
+                  <li class="package__list-item">∞ количество задач</li>
+                  <li class="package__list-item">25 GB медиа хранилище</li>
+                  <li class="package__list-item">Поддержка по Email</li>
+
+                  <li class="package__list-item">50 проектов</li>
+                  <li class="package__list-item">10 участников</li>
+                  <li class="package__list-item">∞ количество задач</li>
+                  <li class="package__list-item">25 GB медиа хранилище</li>
+                  <li class="package__list-item">Поддержка по Email</li>
+                </ul>
+                <div class="package__button">
+                  <button class="button-solid">Выбрать</button>
+                </div>
+              </div>
+              <!--// package -->
+              <!-- package -->
+              <div class="package">
+                <div class="package__header">
+                  <h4 class="package__title">премиум</h4>
+                  <span class="package__price">125</span>
+                  <span class="package__period">$/мес</span>
+                </div>
+                <ul class="package__list">
+                  <li class="package__list-item">100 проектов</li>
+                  <li class="package__list-item">30 участников</li>
+                  <li class="package__list-item">∞ количество задач</li>
+                  <li class="package__list-item">50 GB медиа хранилище</li>
+                  <li class="package__list-item">Поддержка по Email</li>
+                </ul>
+                <div class="package__button">
+                  <button class="button-outline">Выбрать</button>
+                </div>
+              </div>
+              <!--// package -->
             </div>
-            </div>
+          </div>
         </div>
+      </section>
+
+    <section class="section-clients">
+      <div class="container">
+        <header class="section-clients__header">
+          <div class="section-clients__title">
+            <h2 class="title">наши клиенты</h2>
+          </div>
+          <div class="section-clients__subtitle">
+            <h3 class="subtitle">Что говорят пользователи</h3>
+          </div>
+        </header>
+        <div class="section-clients__slider">
+        <!-- slider -->
+        <div class="slider">
+          <button class="slider__arrow slider__arrow--left">
+            <img src="./img/slider/arrow-left.svg" alt="Left">
+          </button>
+          <button class="slider__arrow slider__arrow--right">
+            <img src="./img/slider/arrow-right.svg" alt="Right">
+          </button>
+
+       
+            <!-- slider item -->
+            <div class="slider-item">
+              <div class="slider-item__text">
+                <p>
+                  Это потрясающее приложение которое помогло мне завершить все
+                  мои дела, и сделать дипломный проект раньше срока.
+                </p>
+              </div>
+              <div class="slider-item__author">
+                <div class="slider-item__avatar">
+                  <img src="./img/users/01.jpg" alt="avatar" />
+                </div>
+                <div class="slider-item__avatar-desc">
+                  <span class="slider-item__avatar-title">Фрилансер</span>
+                  <span class="slider-item__avatar-name"> Николай Остапов</span>
+                </div>
+              </div>
+            </div>
+            <!--// slider item -->
+        </div>
+          <!--// slider -->
+        </div>
+      </div>
     </section>
 
     <footer class="footer">
-        <div class="container">
-            <div class="footer__row">
-                <div class="footer__nav">
-                    <a href="#!" class="footer__nav-item">о нас</a>
-                    <a href="#!" class="footer__nav-item">блог</a>
-                    <a href="#!" class="footer__nav-item">контакты</a>
-                </div>
-                <div class="footer__social">
-                    <a class="footer__social-item" href="#!"><img src="./img/socials/twitter.svg" alt="twitter"></a>
-                    <a class="footer__social-item" href="#!"><img src="./img/socials/facebook.svg" alt="facebook"></a>
-                    <a class="footer__social-item" href="#!"><img src="./img/socials/instagram.svg" alt="instagram"></a>
-                    <a class="footer__social-item" href="#!"><img src="./img/socials/vk.svg" alt="vk"></a>
-                </div>
-            </div>
-            <div class="footer__copyright">
-                <p>Копирайт © 2024 ЮНИТ. Все права защищены.</p>
-            </div>
+      <div class="container">
+        <div class="footer__row">
+          <div class="footer__nav">
+            <a href="#!" class="footer__nav-item">о нас</a>
+            <a href="#!" class="footer__nav-item">блог</a>
+            <a href="#!" class="footer__nav-item">контакты</a>
+          </div>
+          <div class="footer__social">
+            <a class="footer__social-item" href="#!"
+              ><img src="./img/socials/twitter.svg" alt="twitter"
+            /></a>
+            <a class="footer__social-item" href="#!"
+              ><img src="./img/socials/facebook.svg" alt="facebook"
+            /></a>
+            <a class="footer__social-item" href="#!"
+              ><img src="./img/socials/instagram.svg" alt="instagram"
+            /></a>
+            <a class="footer__social-item" href="#!"
+              ><img src="./img/socials/vk.svg" alt="vk"
+            /></a>
+          </div>
         </div>
+        <div class="footer__copyright">
+          <p>Копирайт © 2024 ЮНИТ. Все права защищены.</p>
+        </div>
+      </div>
     </footer>
-</body>
+  </body>
 </html>
