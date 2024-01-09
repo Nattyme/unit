@@ -5,6 +5,7 @@
 .section-focus__row {
     display: flex;
     justify-content: space-between;
+    align-items: flex-start;
 }
 
 .section-focus__content {
@@ -20,11 +21,13 @@
     margin-bottom: 30px;
 }
 
-.section-focus__subtitle {
-}
-
 .section-focus__text {
     width: 400px;
+    
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 2.14;
+    color: $paragraphColor;
 
     p:not(:last-child) {
         margin-bottom: 15px;
