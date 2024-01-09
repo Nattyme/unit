@@ -1,0 +1,41 @@
+.footer {
+    padding: 70px 0;
+    background-color: #1a1a1a;
+    color: #fff;
+}
+
+.footer__row {
+    margin-bottom: 50px;
+     
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.footer__nav {
+}
+
+.footer__nav-item {
+    margin-right: 50px;
+
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1; /* 16px */
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    color: #fff;
+
+    &:last-child {
+        margin-right: 0;
+    }
+
+    &:hover {
+        color: #15D784;
+    }
+}
+
+.footer__socials {
+}
+
+.footer__copyright {
+}
