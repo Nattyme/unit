@@ -7,6 +7,27 @@
     &::before {
        @extend %overlay;
     }
+
+    /* Desktop MD*/
+    @media (max-width: 1600px) {
+        @include bgImage ("./../img/prices/prices-bg-1600.jpg");
+     }
+
+     /* Tablet */
+     @media (max-width: 1199px) {
+        @include bgImage ("./../img/prices/prices-bg-900.jpg");
+     }
+
+     /* Mobile */
+     @media (max-width: 899px) {
+        @include bgImage ("./../img/prices/prices-bg-600.jpg");
+     }
+
+     /* Mobile XS */
+     @media (max-width: 599px) {
+        @include bgImage ("./../img/prices/prices-bg-320.jpg");
+     }
+
 }
 
 .section-price__content {
