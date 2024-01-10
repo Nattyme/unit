@@ -160,6 +160,11 @@
     @media (max-width: 899px) {
         width: 370px;
     }
+
+    /* Mobile XS */
+    @media (max-width: 599px) {
+        width: 290px;
+    }
 }
 
 .header__scroll {

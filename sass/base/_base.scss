@@ -1,11 +1,28 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700;800&display=swap');
 
 // Grid styles
-
+.none {
+    display: none !important;
+}
 .container {
     width: 1200px;
     padding: 0 15px;
     margin: 0 auto;
+
+    /* Tablet */
+    @media (max-width: 1199px) {
+        max-width: 1199px;
+    }
+
+    /* Mobile */
+    @media (max-width: 899px) {
+        max-width: 899px;
+    }
+
+    /* Mobile XS */
+    @media (max-width: 599px) {
+        max-width: 599px;
+    }
 }
 
 html {
@@ -21,3 +38,4 @@ body {
     display: flex; /* sticky footer */
     flex-direction: column; /* sticky footer */
 }
+
