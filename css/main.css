@@ -132,10 +132,22 @@ body {
   align-items: center;
   color: #fff;
   /* Tablet */
+  /* Mobile */
+  /* Mobile XS */
 }
 @media (max-width: 1199px) {
   .header__wrapper {
     padding-bottom: 50px;
+  }
+}
+@media (max-width: 899px) {
+  .header__wrapper {
+    padding-top: 20px;
+  }
+}
+@media (max-width: 599px) {
+  .header__wrapper {
+    padding-bottom: 40px;
   }
 }
 
@@ -144,21 +156,39 @@ body {
   display: flex;
   justify-content: space-between;
   /* Tablet */
+  /* Mobile */
+  /* Mobile XS */
 }
 @media (max-width: 1199px) {
   .header__buttons {
     margin-bottom: 100px;
   }
 }
-
+@media (max-width: 899px) {
+  .header__buttons {
+    margin-bottom: 30px;
+  }
+}
 .header__content {
   margin-bottom: 148px;
   text-align: center;
   /* Tablet */
+  /* Mobile */
+  /* Mobile XS */
 }
 @media (max-width: 1199px) {
   .header__content {
     margin-bottom: 129px;
+  }
+}
+@media (max-width: 899px) {
+  .header__content {
+    margin-bottom: 80px;
+  }
+}
+@media (max-width: 599px) {
+  .header__content {
+    margin-bottom: 50px;
   }
 }
 
@@ -168,11 +198,18 @@ body {
   font-weight: 700;
   line-height: 1; /* 96px */
   /* Tablet */
+  /* Mobile */
 }
 @media (max-width: 1199px) {
   .header__title {
     margin-bottom: 35px;
     font-size: 84px;
+  }
+}
+@media (max-width: 899px) {
+  .header__title {
+    margin-bottom: 30px;
+    font-size: 70px;
   }
 }
 
@@ -185,6 +222,8 @@ body {
   font-weight: 700;
   line-height: normal;
   /* Tablet */
+  /* Mobile */
+  /* Mobile XS */
 }
 .header__desc p:not(:last-child) {
   margin-bottom: 15px;
@@ -195,12 +234,44 @@ body {
     font-size: 18px;
   }
 }
+@media (max-width: 899px) {
+  .header__desc {
+    max-width: 430px;
+    font-size: 16px;
+  }
+}
+@media (max-width: 599px) {
+  .header__desc {
+    margin-bottom: 30px;
+    max-width: 290px;
+  }
+}
 
 .header__form {
   display: flex;
   justify-content: center;
   -moz-column-gap: 20px;
        column-gap: 20px;
+  /* Mobile */
+  /* Mobile XS */
+}
+@media (max-width: 899px) {
+  .header__form {
+    flex-direction: column;
+    align-items: center;
+    -moz-column-gap: 0;
+         column-gap: 0;
+    row-gap: 20px;
+  }
+}
+.header__form-input {
+  width: 240px;
+  /* Mobile */
+}
+@media (max-width: 899px) {
+  .header__form-input {
+    width: 370px;
+  }
 }
 
 .section-functional {
@@ -466,7 +537,7 @@ body {
 
 .input {
   padding: 0 30px;
-  width: 240px;
+  width: 100%;
   height: 60px;
   background-color: rgba(0, 0, 0, 0.75);
   border-radius: 30px;
