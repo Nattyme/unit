@@ -12,17 +12,17 @@
 
     /* Tablet */
     @media (max-width: 1199px) {
-        max-width: 1199px;
+        width: 930px;
     }
 
     /* Mobile */
     @media (max-width: 899px) {
-        max-width: 899px;
+        width: 630px;
     }
 
     /* Mobile XS */
     @media (max-width: 599px) {
-        max-width: 599px;
+        width: 350px;
     }
 }
 

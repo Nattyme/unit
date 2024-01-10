@@ -110,17 +110,17 @@ legend {
 }
 @media (max-width: 1199px) {
   .container {
-    max-width: 1199px;
+    width: 930px;
   }
 }
 @media (max-width: 899px) {
   .container {
-    max-width: 899px;
+    width: 630px;
   }
 }
 @media (max-width: 599px) {
   .container {
-    max-width: 599px;
+    width: 350px;
   }
 }
 
@@ -298,21 +298,99 @@ body {
 
 .section-functional {
   padding: 80px 0;
+  /* Tablet */
+  /* Mobile XS */
+}
+@media (max-width: 1199px) {
+  .section-functional {
+    padding: 50px 0;
+  }
+}
+@media (max-width: 599px) {
+  .section-functional {
+    padding: 40px 0;
+  }
 }
 
 .section-functional__header {
   margin-bottom: 70px;
   text-align: center;
+  /* Tablet */
+  /* Mobile */
+  /* Mobile XS */
 }
-
+@media (max-width: 1199px) {
+  .section-functional__header {
+    margin-bottom: 60px;
+  }
+}
+@media (max-width: 899px) {
+  .section-functional__header {
+    margin-bottom: 40px;
+  }
+}
 .section-functional__title {
   margin-bottom: 40px;
+  /* Tablet */
+  /* Mobile */
+  /* Mobile XS */
+}
+@media (max-width: 1199px) {
+  .section-functional__title {
+    margin-bottom: 30px;
+  }
+}
+@media (max-width: 899px) {
+  .section-functional__title {
+    margin-bottom: 20px;
+  }
+}
+@media (max-width: 599px) {
+  .section-functional__title {
+    margin-bottom: 10px;
+  }
 }
 
 .section-functional__row {
   display: flex;
+  flex-wrap: wrap;
   -moz-column-gap: 30px;
        column-gap: 30px;
+  /* Tablet */
+  /* Mobile */
+  /* Mobile XS */
+}
+@media (max-width: 899px) {
+  .section-functional__row {
+    row-gap: 30px;
+  }
+}
+@media (max-width: 599px) {
+  .section-functional__row {
+    row-gap: 40px;
+  }
+}
+
+.section-functional__row > * {
+  width: 270px;
+  /* Tablet */
+  /* Mobile */
+  /* Mobile XS */
+}
+@media (max-width: 1199px) {
+  .section-functional__row > * {
+    width: 195px;
+  }
+}
+@media (max-width: 899px) {
+  .section-functional__row > * {
+    width: 270px;
+  }
+}
+@media (max-width: 599px) {
+  .section-functional__row > * {
+    width: 290px;
+  }
 }
 
 .section-cta {
@@ -610,16 +688,39 @@ body {
   letter-spacing: 4px;
   text-transform: uppercase;
   color: #15D784;
+  /* Mobile */
+}
+@media (max-width: 899px) {
+  .title {
+    font-size: 14px;
+  }
 }
 
 .subtitle {
   font-size: 48px;
   font-weight: 700;
   line-height: 1; /* 48px */
+  /* Tablet */
+  /* Mobile */
+  /* Mobile XS */
+}
+@media (max-width: 1199px) {
+  .subtitle {
+    font-size: 38px;
+  }
+}
+@media (max-width: 899px) {
+  .subtitle {
+    font-size: 30px;
+  }
+}
+@media (max-width: 599px) {
+  .subtitle {
+    font-size: 26px;
+  }
 }
 
 .card {
-  width: 270px;
   text-align: center;
 }
 
