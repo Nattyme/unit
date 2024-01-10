@@ -7,9 +7,25 @@
         @extend %overlay;
      }
 
+     /* Desktop MD*/
+     @media (max-width:  1600px) {
+        @include bgImage ("./../img/cta/cta-bg-1600.jpg");
+     }
+
      /* Tablet */
      @media (max-width: 1199px) {
         padding: 40px 0;
+        @include bgImage ("./../img/cta/cta-bg-900.jpg");
+     }
+
+     /* Mobile */
+     @media (max-width: 899px) {
+        @include bgImage ("./../img/cta/cta-bg-600.jpg");
+     }
+
+     /* Mobile XS */
+     @media (max-width: 599px) {
+        @include bgImage ("./../img/cta/cta-bg-320.jpg");
      }
  }
 

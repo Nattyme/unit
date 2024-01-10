@@ -400,11 +400,42 @@ body {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  /* Desktop MD*/
   /* Tablet */
+  /* Mobile */
+  /* Mobile XS */
+}
+@media (max-width: 1600px) {
+  .section-cta {
+    background-image: url("./../img/cta/cta-bg-1600.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
 }
 @media (max-width: 1199px) {
   .section-cta {
     padding: 40px 0;
+    background-image: url("./../img/cta/cta-bg-900.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+}
+@media (max-width: 899px) {
+  .section-cta {
+    background-image: url("./../img/cta/cta-bg-600.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+}
+@media (max-width: 599px) {
+  .section-cta {
+    background-image: url("./../img/cta/cta-bg-320.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
   }
 }
 
