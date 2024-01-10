@@ -400,7 +400,14 @@ body {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  /* Tablet */
 }
+@media (max-width: 1199px) {
+  .section-cta {
+    padding: 40px 0;
+  }
+}
+
 .section-cta__content {
   z-index: 9;
   position: relative;
@@ -413,10 +420,24 @@ body {
   font-weight: 500;
   line-height: 1; /* 22px */
   color: #fff;
+  /* Mobile */
+  /* Mobile XS */
 }
 .section-cta__title span {
   font-weight: 700;
   text-transform: uppercase;
+}
+@media (max-width: 899px) {
+  .section-cta__title {
+    margin-bottom: 30px;
+    font-size: 20px;
+  }
+}
+@media (max-width: 599px) {
+  .section-cta__title {
+    margin-bottom: 20px;
+    font-size: 18px;
+  }
 }
 
 .section-tasks {

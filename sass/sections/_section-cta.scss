@@ -6,6 +6,11 @@
     &::before {
         @extend %overlay;
      }
+
+     /* Tablet */
+     @media (max-width: 1199px) {
+        padding: 40px 0;
+     }
  }
 
 .section-cta__content {
@@ -25,5 +30,17 @@
     span {
         font-weight: 700;
         text-transform: uppercase;
+    }
+
+    /* Mobile */
+    @media (max-width: 899px) {
+        margin-bottom: 30px;
+        font-size: 20px;
+    }
+
+    /* Mobile XS */
+    @media (max-width: 599px) {
+        margin-bottom: 20px;
+        font-size: 18px;
     }
 }
