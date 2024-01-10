@@ -4,8 +4,9 @@
 .none {
     display: none !important;
 }
+
 .container {
-    width: 1200px;
+    max-width: 1200px;
     padding: 0 15px;
     margin: 0 auto;
 
@@ -33,9 +34,5 @@ html {
 body {
     font-family: 'Montserrat', sans-serif;
     color: $textColor;
-
-    height: 100%;  /* sticky footer */
-    display: flex; /* sticky footer */
-    flex-direction: column; /* sticky footer */
 }
 

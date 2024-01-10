@@ -101,7 +101,7 @@ legend {
 }
 
 .container {
-  width: 1200px;
+  max-width: 1200px;
   padding: 0 15px;
   margin: 0 auto;
   /* Tablet */
@@ -132,9 +132,6 @@ html {
 body {
   font-family: "Montserrat", sans-serif;
   color: #2E2E2E;
-  height: 100%; /* sticky footer */
-  display: flex; /* sticky footer */
-  flex-direction: column; /* sticky footer */
 }
 
 .header {
@@ -175,14 +172,16 @@ body {
 
 .header__buttons {
   margin-bottom: 140px;
+  padding: 0 15px;
+  width: 1200px;
   display: flex;
   justify-content: space-between;
   /* Tablet */
   /* Mobile */
-  /* Mobile XS */
 }
 @media (max-width: 1199px) {
   .header__buttons {
+    width: 100%;
     margin-bottom: 100px;
   }
 }
@@ -191,6 +190,7 @@ body {
     margin-bottom: 30px;
   }
 }
+
 .header__content {
   margin-bottom: 148px;
   text-align: center;
@@ -265,11 +265,11 @@ body {
 @media (max-width: 599px) {
   .header__desc {
     margin-bottom: 30px;
-    max-width: 290px;
   }
 }
 
 .header__form {
+  margin: 0 auto;
   display: flex;
   justify-content: center;
   -moz-column-gap: 20px;
@@ -279,8 +279,8 @@ body {
 }
 @media (max-width: 899px) {
   .header__form {
+    max-width: 370px;
     flex-direction: column;
-    align-items: center;
     -moz-column-gap: 0;
          column-gap: 0;
     row-gap: 20px;
@@ -289,16 +289,10 @@ body {
 .header__form-input {
   width: 240px;
   /* Mobile */
-  /* Mobile XS */
 }
 @media (max-width: 899px) {
   .header__form-input {
-    width: 370px;
-  }
-}
-@media (max-width: 599px) {
-  .header__form-input {
-    width: 290px;
+    width: 100%;
   }
 }
 
@@ -470,7 +464,6 @@ body {
 
 .footer {
   padding: 70px 0;
-  margin-top: auto; /* sticky footer */
   background-color: #1a1a1a;
   color: #fff;
 }
