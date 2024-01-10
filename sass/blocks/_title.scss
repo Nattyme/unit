@@ -6,6 +6,11 @@
     text-transform: uppercase;
     color: $accentText;
 
+    /* Tablet */
+    @media (max-width: 1199px) {
+       
+    }
+
     /* Mobile */
     @media (max-width: 899px) {
        font-size: 14px; 

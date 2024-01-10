@@ -4,6 +4,12 @@
 
 .card__img {
     margin-bottom: 40px;
+
+    /* Tablet */
+    @media (max-width: 1199px) {
+        margin-bottom: 20px;
+    }
+
 }
 
 .card__title {
@@ -12,6 +18,18 @@
     font-size: 16px;
     font-weight: 700;
     line-height: 1; /* 16px */
+
+    /* Tablet */
+    @media (max-width: 1199px) {
+        margin-bottom: 10px;
+        min-height: 48px;
+        line-height: 1.5;
+    }
+
+    /* Mobile */
+    @media (max-width: 899px) {
+        min-height: unset;
+    }
 }
 
 .card__text {
@@ -19,4 +37,9 @@
     font-weight: 500;
     line-height: 2.14; /* 214.286% */
     color: $paragraphColor;
+
+    /* Tablet */
+    @media (max-width: 1199px) {
+        line-height: 1.57;
+    }
 }

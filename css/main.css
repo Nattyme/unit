@@ -110,17 +110,17 @@ legend {
 }
 @media (max-width: 1199px) {
   .container {
-    width: 930px;
+    width: 900px;
   }
 }
 @media (max-width: 899px) {
   .container {
-    width: 630px;
+    width: 600px;
   }
 }
 @media (max-width: 599px) {
   .container {
-    width: 350px;
+    width: 320px;
   }
 }
 
@@ -688,6 +688,7 @@ body {
   letter-spacing: 4px;
   text-transform: uppercase;
   color: #15D784;
+  /* Tablet */
   /* Mobile */
 }
 @media (max-width: 899px) {
@@ -726,6 +727,12 @@ body {
 
 .card__img {
   margin-bottom: 40px;
+  /* Tablet */
+}
+@media (max-width: 1199px) {
+  .card__img {
+    margin-bottom: 20px;
+  }
 }
 
 .card__title {
@@ -733,6 +740,20 @@ body {
   font-size: 16px;
   font-weight: 700;
   line-height: 1; /* 16px */
+  /* Tablet */
+  /* Mobile */
+}
+@media (max-width: 1199px) {
+  .card__title {
+    margin-bottom: 10px;
+    min-height: 48px;
+    line-height: 1.5;
+  }
+}
+@media (max-width: 899px) {
+  .card__title {
+    min-height: unset;
+  }
 }
 
 .card__text {
@@ -740,6 +761,12 @@ body {
   font-weight: 500;
   line-height: 2.14; /* 214.286% */
   color: #808080;
+  /* Tablet */
+}
+@media (max-width: 1199px) {
+  .card__text {
+    line-height: 1.57;
+  }
 }
 
 .package {
