@@ -57,6 +57,7 @@
 
   /* Mobile XS */
   @media (max-width: 599px) {
+    margin-bottom: 10px;
     width: 100%;
 
     img {
@@ -72,11 +73,12 @@
     /* Tablet */
   @media (max-width: 1199px) {
     width: 420px;
-    padding-top: 12px;
+    padding-top: 20px;
   }
   
   /* Mobile */
   @media (max-width: 899px) {
+    padding-top: 0;
     width: 370px;
   }
 

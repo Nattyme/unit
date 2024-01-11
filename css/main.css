@@ -732,6 +732,7 @@ body {
 }
 @media (max-width: 599px) {
   .section-focus__img {
+    margin-bottom: 10px;
     width: 100%;
   }
   .section-focus__img img {
@@ -749,11 +750,12 @@ body {
 @media (max-width: 1199px) {
   .section-focus__content {
     width: 420px;
-    padding-top: 12px;
+    padding-top: 20px;
   }
 }
 @media (max-width: 899px) {
   .section-focus__content {
+    padding-top: 0;
     width: 370px;
   }
 }
