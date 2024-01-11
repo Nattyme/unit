@@ -59,12 +59,33 @@
     p:not(:last-child) {
         margin-bottom: 15px;
     }
+
+    /* Tablet */
+    @media (max-width: 1199px) {
+        line-height: 1.5;
+    }
+
+    /* Mobile */
+    @media (max-width: 899px) {
+        margin-bottom: 20px;
+        font-size: 16px;
+    }
+
+    /* Mobile XS */
+    @media (max-width: 599px) {
+        font-size: 14px;
+    }
 }
 
 .slider-item__author {
     display: flex;
-    gap: 20px;
+    column-gap: 20px;
     align-items: center;
+
+    /* Mobile XS */
+    @media (max-width: 599px) {
+        column-gap: 10px;
+    }
 }
 
 .slider-item__avatar {
@@ -72,11 +93,22 @@
     height: 80px;
     border-radius: 50%;
     overflow: hidden;
+
+    /* Mobile XS */
+    @media (max-width: 599px) {
+        width: 60px;
+        height: 60px;
+    }
 }
 
 .slider-item__avatar-desc {
     font-size: 16px;
     font-weight: 500;
+
+    /* Mobile XS */
+    @media (max-width: 599px) {
+        font-size: 14px;
+    }
 }
 
 .slider-item__avatar-title {
