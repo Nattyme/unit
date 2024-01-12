@@ -1,5 +1,11 @@
 .slider {
+    padding-bottom: 54px;
     position: relative;
+
+    /* Mobile */
+    @media (max-width: 899px) {
+        padding-bottom: 44px;
+    }
 }
 
 .slider__arrow {
@@ -50,14 +56,9 @@
    column-gap: 10px;
 
    position: absolute;
-   bottom: -40px;
+   bottom: 0;
    left: 50%;
-   transform: translate(-50%, 100%);
-
-   /* Mobile */
-   @media (max-width: 899px) {
-    bottom: -30px;
-   }
+   transform: translateX(-50%);
 }
 
 .slider__pagination-item {
