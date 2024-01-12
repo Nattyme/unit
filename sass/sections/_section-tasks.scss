@@ -16,6 +16,7 @@
     /* Mobile XS */
     @media (max-width: 599px) {
         padding-top: 40px;
+        padding-bottom: 40px;
     }
 }
 
@@ -35,7 +36,7 @@
     /* Mobile */
     @media (max-width: 899px) {
         padding-left: 0;
-        align-items: stretch;
+        align-items: flex-start;
         flex-direction: row-reverse;
     }
 
@@ -45,9 +46,9 @@
     }
 }
 
-// .section-tasks__row > * {
-//     flex-shrink: 0;
-// } 
+.section-tasks__row > * {
+    flex-shrink: 0;
+} 
 
 .section-tasks__content {
     width: 570px;
@@ -68,7 +69,7 @@
     /* Mobile XS */
     @media (max-width: 599px) {
         padding-top: 0;
-        width: 290px;
+        width: 100%;
         text-align: center;
     }
 }

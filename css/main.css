@@ -96,10 +96,6 @@ legend {
   display: block;
 }
 
-.none {
-  display: none !important;
-}
-
 .container {
   max-width: 1200px;
   padding: 0 15px;
@@ -126,7 +122,6 @@ legend {
 }
 
 html {
-  height: 100%; /* sticky footer */
   scroll-behavior: smooth;
 }
 
@@ -270,7 +265,7 @@ body {
 }
 @media (max-width: 899px) {
   .header__title {
-    margin-bottom: 30px;
+    margin-bottom: 32px;
     font-size: 70px;
   }
 }
@@ -282,7 +277,7 @@ body {
   margin-right: auto;
   font-size: 20px;
   font-weight: 700;
-  line-height: normal;
+  line-height: 1.2;
   /* Tablet */
   /* Mobile */
   /* Mobile XS */
@@ -369,6 +364,12 @@ body {
     margin-bottom: 40px;
   }
 }
+@media (max-width: 599px) {
+  .section-functional__header {
+    margin-bottom: 42px;
+  }
+}
+
 .section-functional__title {
   margin-bottom: 40px;
   /* Tablet */
@@ -532,6 +533,7 @@ body {
 @media (max-width: 599px) {
   .section-tasks {
     padding-top: 40px;
+    padding-bottom: 40px;
   }
 }
 
@@ -554,7 +556,7 @@ body {
 @media (max-width: 899px) {
   .section-tasks__row {
     padding-left: 0;
-    align-items: stretch;
+    align-items: flex-start;
     flex-direction: row-reverse;
   }
 }
@@ -562,6 +564,10 @@ body {
   .section-tasks__row {
     flex-direction: column-reverse;
   }
+}
+
+.section-tasks__row > * {
+  flex-shrink: 0;
 }
 
 .section-tasks__content {
@@ -586,7 +592,7 @@ body {
 @media (max-width: 599px) {
   .section-tasks__content {
     padding-top: 0;
-    width: 290px;
+    width: 100%;
     text-align: center;
   }
 }
@@ -677,7 +683,8 @@ body {
 }
 @media (max-width: 1199px) {
   .section-focus {
-    padding: 50px 0;
+    padding-top: 50px;
+    padding-bottom: 20px;
   }
 }
 @media (max-width: 899px) {
@@ -983,7 +990,7 @@ body {
 }
 @media (max-width: 599px) {
   .section-clients__header {
-    margin-bottom: 30px;
+    margin-bottom: 32px;
   }
 }
 
@@ -1033,7 +1040,8 @@ body {
 }
 
 .footer {
-  padding: 70px 0;
+  padding-top: 70px;
+  padding-bottom: 70px;
   background-color: #1a1a1a;
   color: #fff;
   /* Tablet */
@@ -1158,7 +1166,7 @@ body {
 }
 @media (max-width: 599px) {
   .footer__copyright {
-    padding: 0 40px;
+    padding: 0 50px;
     line-height: 1.5;
   }
 }
@@ -1197,7 +1205,8 @@ body {
 }
 
 .input {
-  padding: 0 30px;
+  padding-left: 30px;
+  padding-right: 30px;
   display: block;
   height: 60px;
   background-color: rgba(0, 0, 0, 0.75);
@@ -1206,9 +1215,23 @@ body {
   font-weight: 700;
   line-height: 60px;
   color: #fff;
+  /* Mobile */
+  /* Mobile XS */
 }
 .input:focus {
   background-color: rgb(0, 0, 0);
+}
+@media (max-width: 899px) {
+  .input {
+    padding-left: 46px;
+    padding-right: 46px;
+  }
+}
+@media (max-width: 599px) {
+  .input {
+    padding-left: 36px;
+    padding-right: 36px;
+  }
 }
 
 .input::-moz-placeholder {
@@ -1220,7 +1243,8 @@ body {
 }
 
 .button {
-  padding: 0 40px;
+  padding-left: 40px;
+  padding-right: 40px;
   height: 60px;
   border-radius: 30px;
   background-color: #00C470;
@@ -1352,8 +1376,9 @@ body {
 }
 
 .package__header {
-  padding: 0 15px;
-  padding-bottom: 40px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 39px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -1412,7 +1437,8 @@ body {
 }
 
 .button-outline {
-  padding: 0 40px;
+  padding-left: 40px;
+  padding-right: 40px;
   height: 60px;
   border-radius: 30px;
   background-color: transparent;
@@ -1434,7 +1460,8 @@ body {
   background-color: rgb(0, 0, 0);
 }
 .button-solid {
-  padding: 0 40px;
+  padding-left: 40px;
+  padding-right: 40px;
   height: 60px;
   border-radius: 30px;
   background-color: #fff;
@@ -1565,6 +1592,7 @@ body {
 @media (max-width: 899px) {
   .slider-item__text {
     margin-bottom: 20px;
+    padding: 0;
     font-size: 16px;
   }
 }

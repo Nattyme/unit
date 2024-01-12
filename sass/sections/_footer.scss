@@ -1,5 +1,6 @@
 .footer {
-    padding: 70px 0;
+    padding-top: 70px;
+    padding-bottom: 70px;
 
     background-color: #1a1a1a;
     color: #fff;
@@ -118,7 +119,7 @@
 
     /* Mobile XS */
     @media (max-width: 599px) {
-        padding: 0 40px;
+        padding: 0 50px;
         line-height: 1.5;
     }
 
