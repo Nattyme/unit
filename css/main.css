@@ -1482,11 +1482,23 @@ body {
   top: 53px;
   left: -46px;
   transform: translateX(-100%);
+  /* Tablet */
+}
+@media (max-width: 949px) {
+  .slider__arrow--left {
+    left: -30px;
+  }
 }
 .slider__arrow--right {
   top: 53px;
   right: -46px;
   transform: translateX(100%);
+  /* Tablet */
+}
+@media (max-width: 949px) {
+  .slider__arrow--right {
+    right: -30px;
+  }
 }
 .slider__arrow path {
   transition: background-color 0.2s ease-in;
