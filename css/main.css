@@ -1650,4 +1650,49 @@ body {
 .slider-item__avatar-name {
   display: block;
   color: #808080;
+}
+
+.nav-icon {
+  width: 20px;
+  height: 17px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.nav-icon__middle {
+  position: relative;
+  width: 20px;
+  height: 3px;
+  background-color: #000;
+}
+.nav-icon__middle::before, .nav-icon__middle::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  width: 20px;
+  height: 3px;
+  background-color: #000;
+  transition: transform 0.2s linear, top 0.2s ease-in 0.2s;
+}
+.nav-icon__middle::before {
+  top: -6px;
+}
+.nav-icon__middle::after {
+  top: 6px;
+}
+
+.nav-icon.nav-icon--active .nav-icon__middle {
+  background-color: transparent;
+}
+.nav-icon.nav-icon--active .nav-icon__middle::before, .nav-icon.nav-icon--active .nav-icon__middle::after {
+  top: 0;
+  transition: top 0.2s ease-in, transform 0.2s linear 0.2s;
+}
+.nav-icon.nav-icon--active .nav-icon__middle::before {
+  transform: rotate(45deg);
+}
+.nav-icon.nav-icon--active .nav-icon__middle::after {
+  transform: rotate(-45deg);
 }/*# sourceMappingURL=main.css.map */
