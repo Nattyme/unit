@@ -1,3 +1,3 @@
-document.querySelector('.nav-icon').addEventListener('click', function(){
-    this.classList.toggle('nav-icon--active');
+document.querySelector('.button-round--nav').addEventListener('click', function(){
+    document.querySelector('.nav-icon').classList.toggle('nav-icon--active');
  });

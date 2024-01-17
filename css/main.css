@@ -1184,25 +1184,25 @@ body {
 .button-round:hover {
   background-color: #00c470;
 }
-.button-round:hover .nav-icon__middle,
-.button-round:hover .nav-icon__middle::before,
-.button-round:hover .nav-icon__middle::after {
-  background-color: #fff;
-}
 .button-round:hover .button-round__svg path {
   transition: all 0.2s ease-in;
 }
 .button-round:hover .button-round__svg--search path {
   stroke: #fff;
 }
+.button-round--nav:hover {
+  background-color: #00c470;
+}
+.button-round--nav:hover .nav-icon__middle,
+.button-round--nav:hover .nav-icon__middle::before,
+.button-round--nav:hover .nav-icon__middle::after {
+  background-color: #fff;
+}
 
 .button-round__svg {
   fill: none;
 }
-.button-round__svg--menu path {
-  fill: #000;
-}
-.button-round__svg--search path {
+.button-round__svg path {
   stroke: #000;
 }
 
