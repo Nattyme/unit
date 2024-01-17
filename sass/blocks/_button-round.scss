@@ -13,13 +13,15 @@
     &:hover {
         background-color: #00c470;
 
+        .nav-icon__middle,
+        .nav-icon__middle::before,
+        .nav-icon__middle::after  {
+            background-color: #fff;
+        }
+
         .button-round__svg {
             path {
                 transition: all 0.2s ease-in;
-            }
-
-            &--menu path {
-                fill: #fff;
             }
 
             &--search path {

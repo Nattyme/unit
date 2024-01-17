@@ -1184,11 +1184,13 @@ body {
 .button-round:hover {
   background-color: #00c470;
 }
+.button-round:hover .nav-icon__middle,
+.button-round:hover .nav-icon__middle::before,
+.button-round:hover .nav-icon__middle::after {
+  background-color: #fff;
+}
 .button-round:hover .button-round__svg path {
   transition: all 0.2s ease-in;
-}
-.button-round:hover .button-round__svg--menu path {
-  fill: #fff;
 }
 .button-round:hover .button-round__svg--search path {
   stroke: #fff;
