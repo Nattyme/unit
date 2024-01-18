@@ -1655,12 +1655,23 @@ body {
 }
 
 .nav-icon {
-  width: 20px;
-  height: 17px;
+  width: 60px;
+  height: 60px;
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: #fff;
+  border-radius: 50%;
+  transition: background-color 0.2s ease-in;
   cursor: pointer;
+}
+.nav-icon:hover {
+  background-color: #00c470;
+}
+.nav-icon:hover .nav-icon__middle,
+.nav-icon:hover .nav-icon__middle::before,
+.nav-icon:hover .nav-icon__middle::after {
+  background-color: #fff;
 }
 
 .nav-icon__middle {
@@ -1668,6 +1679,8 @@ body {
   width: 20px;
   height: 3px;
   background-color: #000;
+  border-radius: 2px;
+  transition: background-color 0.2s ease-in;
 }
 .nav-icon__middle::before, .nav-icon__middle::after {
   content: "";
@@ -1676,13 +1689,15 @@ body {
   width: 20px;
   height: 3px;
   background-color: #000;
+  transition: background-color 0.2s ease-in;
   transition: transform 0.2s linear, top 0.2s ease-in 0.2s;
+  border-radius: 2px;
 }
 .nav-icon__middle::before {
-  top: -6px;
+  top: -7px;
 }
 .nav-icon__middle::after {
-  top: 6px;
+  top: 7px;
 }
 
 .nav-icon.nav-icon--active .nav-icon__middle {
