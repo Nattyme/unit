@@ -53,11 +53,9 @@ $height: 60px;
         width: $lineWidth;
         height: $lineHeight;
         background-color: $color; 
-        transition: background-color 0.2s ease-in;
-
         transition: transform 0.2s linear, top 0.2s ease-in 0.2s;
+        transition: background-color 0.2s ease-in;
         border-radius: $radius;
-        
     }
 
     &::before {
@@ -71,6 +69,11 @@ $height: 60px;
 
 
 // Active state
+.nav-icon.nav-icon--active {
+    z-index: 9;
+    position: fixed;
+}
+
 .nav-icon.nav-icon--active .nav-icon__middle {
     background-color: transparent;
 
@@ -87,3 +90,5 @@ $height: 60px;
         transform: rotate(-45deg);
     }
 }
+
+

@@ -1,6 +1,7 @@
 .header {
-    flex-shrink: 0;
     position: relative;
+    z-index: 99;
+    flex-shrink: 0;
     // height: 870px;
    
     @include bgImage ("./../img/header/header-bg.jpg");
@@ -79,6 +80,10 @@
     @media (max-width: 899px) {
         margin-bottom: 30px;
     }
+}
+
+.header__buttons-search {
+    margin-left: auto;
 }
 
 .header__content {
