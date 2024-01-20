@@ -5,6 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Проект Unit - таск менеджер</title>
     <link rel="stylesheet" href="./css/main.css">
+
+    <!-- OwlCarousel -->
+    <link rel="stylesheet" href="./libs/owlCarousel2/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="./libs/owlCarousel2/assets/owl.theme.default.css">
   </head>
   <body>
     <header class="header">
@@ -261,29 +265,30 @@
         </header>
 
         <div class="section-clients__slider">
-        <!-- slider -->
-        <div class="slider">
-            <button class="slider__arrow slider__arrow--left">
+        
+        <!-- <button class="slider__arrow slider__arrow--left">
             <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M20 12H4" stroke="#00C470" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
                 <path d="M10 18L4 12L10 6" stroke="#00C470" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
             </svg>                
-            </button>
-            <button class="slider__arrow slider__arrow--right">
+        </button>
+        <button class="slider__arrow slider__arrow--right">
             <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M4 12H20" stroke="#00C470" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
                 <path d="M14 6L20 12L14 18" stroke="#00C470" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
             </svg>                
-            </button>
+        </button> -->
+            
 
-            <div class="slider__pagination">
+            <!-- <div class="slider__pagination">
                 <button class="slider__pagination-item"></button>
                 <button class="slider__pagination-item slider__pagination-item--active"></button>
                 <button class="slider__pagination-item"></button>
                 <button class="slider__pagination-item"></button>
                 <button class="slider__pagination-item"></button>
-            </div>
-
+            </div> -->
+       <!-- slider -->
+        <div class="slider owl-carousel owl-theme" id="clients-slider">
             <!-- slider item -->
             <div class="slider-item">
               <div class="slider-item__text">
@@ -303,6 +308,44 @@
               </div>
             </div>
             <!--// slider item -->
+            <!-- slider item -->
+            <div class="slider-item">
+                <div class="slider-item__text">
+                  <p>
+                    Это потрясающее приложение которое помогло мне завершить все
+                    мои дела, и сделать дипломный проект раньше срока.
+                  </p>
+                </div>
+                <div class="slider-item__author">
+                  <div class="slider-item__avatar">
+                    <img src="./img/users/01.jpg" alt="avatar">
+                  </div>
+                  <div class="slider-item__avatar-desc">
+                    <span class="slider-item__avatar-title">Фрилансер</span>
+                    <span class="slider-item__avatar-name"> Николай Остапов</span>
+                  </div>
+                </div>
+              </div>
+              <!--// slider item -->
+              <!-- slider item -->
+            <div class="slider-item">
+                <div class="slider-item__text">
+                  <p>
+                    Это потрясающее приложение которое помогло мне завершить все
+                    мои дела, и сделать дипломный проект раньше срока.
+                  </p>
+                </div>
+                <div class="slider-item__author">
+                  <div class="slider-item__avatar">
+                    <img src="./img/users/01.jpg" alt="avatar">
+                  </div>
+                  <div class="slider-item__avatar-desc">
+                    <span class="slider-item__avatar-title">Фрилансер</span>
+                    <span class="slider-item__avatar-name"> Николай Остапов</span>
+                  </div>
+                </div>
+              </div>
+              <!--// slider item -->
         </div>
           <!--// slider -->
         </div>
@@ -334,5 +377,10 @@
     </footer>
     <script src="./js/nav.js"></script>
     <script src="./js/search.js"></script>
+
+    <!-- OwlCarousel scripts  -->
+    <script src="./libs/jquery/jquery-3.7.1.min.js"></script>
+    <script src="./libs/owlCarousel2/owl.carousel.min.js"></script>
+    <script src="./js/clients-carousel.js"></script>
   </body>
 </html>
