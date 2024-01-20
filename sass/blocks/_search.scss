@@ -1,0 +1,77 @@
+.search {
+    position: relative;
+    z-index: 9;
+}
+
+.search__input {
+    width: 0;
+    height: 60px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 30px;
+    border: none;
+    background: #fff;
+
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 60px;
+    color: #000;
+
+    transition: width 0.2s ease-in;
+
+    &::placeholder {
+        color: rgba(46, 46, 46, 0.50);
+    }
+}
+
+.search__button {
+    position: absolute;
+    top: 0;
+    right: 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    background-color: #fff;
+    border: none;
+    cursor:  pointer;
+
+    transition: background-color 0.2s ease-in;
+
+    &:hover {
+        background: #00C470;
+
+        .search__button-icon {
+            stroke: #fff;
+        }
+    }
+}
+
+.search__button-icon {
+    stroke: #000;
+    transition: stroke 0.2s ease-in;
+}
+
+// Активное состояние формы с поиском
+.search.search--visible {
+    .search__input {
+        width: 340px;
+        padding-left: 30px;
+        padding-right: 70px;
+    }
+
+    .search__button {
+        background-color: #00c470;
+
+        .search__button-icon {
+            stroke: #fff;
+        }
+
+        &:hover {
+            background-color: #15d784;
+        }
+    }
+}

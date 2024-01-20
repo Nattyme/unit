@@ -1,3 +1,4 @@
+// Работа с навигацией
 const navIcon = document.querySelector('.nav-icon');
 const nav = document.querySelector('.nav');
 
