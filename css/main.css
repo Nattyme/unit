@@ -227,6 +227,10 @@ body {
   }
 }
 
+.header__buttons-nav-icon {
+  flex-shrink: 0;
+}
+
 .header__buttons-search {
   margin-left: auto;
 }
@@ -1402,6 +1406,15 @@ body {
   width: 340px;
   padding-left: 30px;
   padding-right: 70px;
+  /* Mobile XS */
+  /* Mobile XS */
+}
+@media (max-width: 599px) {
+  .search.search--visible .search__input {
+    width: 220px;
+    padding-left: 20px;
+    font-size: 14px;
+  }
 }
 .search.search--visible .search__button {
   background-color: #00c470;

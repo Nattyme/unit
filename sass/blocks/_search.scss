@@ -61,6 +61,15 @@
         width: 340px;
         padding-left: 30px;
         padding-right: 70px;
+
+        /* Mobile XS */
+        /* Mobile XS */
+        @media (max-width: 599px) {
+            width: 220px;
+            padding-left: 20px;
+            font-size: 14px;
+        }
+        
     }
 
     .search__button {

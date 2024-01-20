@@ -82,6 +82,10 @@
     }
 }
 
+.header__buttons-nav-icon {
+    flex-shrink: 0;
+}
+
 .header__buttons-search {
     margin-left: auto;
 }
