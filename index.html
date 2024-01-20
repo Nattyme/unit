@@ -263,29 +263,26 @@
         <h3 class="subtitle">Что говорят пользователи</h3>
         </header>
 
+        <!-- Slider wrapper  -->
         <div class="section-clients__slider">
         
         <button class="slider__arrow slider__arrow--left" id="sliderPrev">
             <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M20 12H4" stroke="#00C470" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                <path d="M10 18L4 12L10 6" stroke="#00C470" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                <g class="slider__arrow-svg">
+                    <path d="M20 12H4" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M10 18L4 12L10 6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </g>
             </svg>                
         </button>
         <button class="slider__arrow slider__arrow--right" id="sliderNext">
             <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M4 12H20" stroke="#00C470" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                <path d="M14 6L20 12L14 18" stroke="#00C470" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                <g class="slider__arrow-svg">
+                    <path d="M4 12H20" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M14 6L20 12L14 18" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </g>     
             </svg>                
         </button>
             
-
-            <!-- <div class="slider__pagination">
-                <button class="slider__pagination-item"></button>
-                <button class="slider__pagination-item slider__pagination-item--active"></button>
-                <button class="slider__pagination-item"></button>
-                <button class="slider__pagination-item"></button>
-                <button class="slider__pagination-item"></button>
-            </div> -->
        <!-- slider -->
         <div class="slider owl-carousel owl-theme" id="clients-slider">
             <!-- slider item -->
@@ -347,7 +344,10 @@
               <!--// slider item -->
         </div>
           <!--// slider -->
+
         </div>
+        <!--// slider wrapper  -->
+
       </div>
     </section>
 
@@ -374,12 +374,14 @@
 
       </div>
     </footer>
-    <script src="./js/nav.js"></script>
-    <script src="./js/search.js"></script>
 
-    <!-- OwlCarousel scripts  -->
+    <!-- Libs  -->
     <script src="./libs/jquery/jquery-3.7.1.min.js"></script>
     <script src="./libs/owlCarousel2/owl.carousel.min.js"></script>
+
+    <!-- Custom js -->
     <script src="./js/clients-carousel.js"></script>
+    <script src="./js/nav.js"></script>
+    <script src="./js/search.js"></script>
   </body>
 </html>

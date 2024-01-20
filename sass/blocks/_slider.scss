@@ -25,6 +25,18 @@
 
     transition: background-color 0.2s ease-in;
 
+    .slider__arrow-svg {
+        stroke: #00C470;
+    }
+
+    &:hover {
+        background-color: #00c470;
+
+        .slider__arrow-svg {
+            stroke: #fff;
+        }
+    }
+
     &--left {
         top: 53px;
         left: -46px;
@@ -51,13 +63,6 @@
         transition: background-color 0.2s ease-in;
     }
 
-    &:hover {
-        background-color: #00c470;
-    }
-
-    &:hover path {
-        stroke: #fff;
-    }
 
     /* Mobile XS */
     @media (max-width: 599px) {

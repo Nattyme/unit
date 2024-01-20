@@ -1731,6 +1731,15 @@ body {
   transition: background-color 0.2s ease-in;
   /* Mobile XS */
 }
+.slider__arrow .slider__arrow-svg {
+  stroke: #00C470;
+}
+.slider__arrow:hover {
+  background-color: #00c470;
+}
+.slider__arrow:hover .slider__arrow-svg {
+  stroke: #fff;
+}
 .slider__arrow--left {
   top: 53px;
   left: -46px;
@@ -1755,12 +1764,6 @@ body {
 }
 .slider__arrow path {
   transition: background-color 0.2s ease-in;
-}
-.slider__arrow:hover {
-  background-color: #00c470;
-}
-.slider__arrow:hover path {
-  stroke: #fff;
 }
 @media (max-width: 599px) {
   .slider__arrow {
